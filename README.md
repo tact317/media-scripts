@@ -11,3 +11,8 @@ Small personal utilities.
 python transcribe.py audio.mp3
 python make_video_from_images.py --help
 ```
+
+## autohotkey/
+
+- `taskbartoggle.ahk`（AutoHotkey **v1** 構文）：Ctrl+Shift+A でタスクバーの表示・非表示を切り替えます（マルチモニター対応）。Ctrl+Shift+Esc で終了します。
+- `notion.ahk`（AutoHotkey **v2**）：Notion の Ctrl+Shift+K を無効にします。元は対象がインストーラ（`Notion Setup 4.12.1.exe`）になっていたので、`Notion.exe` に直しました。
